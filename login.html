@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>로그인 폼(=form, 양식)</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script.js"></script>
+</head>
+<body>
+
+	<table id="outerTbl">
+		<tbody>
+			<tr>
+				<td>
+
+					<!-- 중첩 테이블 시작 -->
+					<table id="innerTbl">
+						<tbody>
+							<tr>
+								<td>
+									<input type="text" id="uID" placeholder="아이디">
+								</td>
+								<td rowspan="2">
+									<button type="submit" id="submit">로그인</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="password" id="uPW" placeholder="비밀번호">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- 중첩 테이블 끝 -->
+
+				</td>
+			</tr>
+			<tr>
+				<td class="accountInfo">
+					<a href="#">회원가입</a>
+					|
+					<a href="#">아이디 찾기</a>
+					|
+					<a href="#">비밀번호 찾기</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
